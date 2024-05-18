@@ -1,0 +1,73 @@
+.inclusion {
+    background-color: #262626;
+    width: 30%;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+.inclusion form {
+    text-align: end;
+    overflow: hidden;
+}
+
+.inclusion form .checkOk {
+    margin: 5px;
+}
+
+.inclusion form .checkOk input {
+    background-color: transparent;
+}
+
+.inclusion form .checkOk label {
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+
+
+
+.inclusion form .pInclusion {
+    background-color: #000;
+    overflow-x: scroll;
+    width: 100%;
+    border: 1px solid #888;
+    padding: 4px;
+    font-size: 13px;
+}
+
+.inclusion form .pInclusion span {
+    width: 500rem;
+    display: flex;
+}
+
+.inclusion form .pInclusion::-webkit-scrollbar {
+    background-color: #424242;
+    
+}
+.inclusion form .pInclusion::-webkit-scrollbar-thumb {
+    background-color: #7b7b7b;
+}
+
+
+
+
+.inclusion button {
+    background-color: #008cff;
+    width: 100%;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.inclusion p {
+    text-align: end;
+    margin: 0;
+    color: #888;
+}
+.inclusion p a{
+    color: #fff;
+}

@@ -1,0 +1,17 @@
+/* ==== start of home ==== */
+.home {
+    /* width: 80%; */
+    display: grid;
+    padding: 25px 0;
+    grid-template-columns: 35% 65%;
+    z-index: 1;
+}
+
+
+
+
+
+/* ==== start of stories ==== */
+.home .stories_posts {
+    /* background-color: yellow; */
+}

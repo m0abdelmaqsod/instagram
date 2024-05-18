@@ -1,0 +1,27 @@
+/* ==== الغاء المتابعة ==== */
+/* ==== start of un Follow  ==== */
+.div_img {
+    width: 90px;
+    height: 90px;
+    margin: 25px auto;
+}
+
+.div_img img {
+    border-radius: 50%;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.btnUnFollow button {
+    width: 100%;
+    border-top: 1px solid #3d3d3da9;
+    padding: 15px 0;
+    font-weight: 600;
+}
+
+.btnUnFollow button:nth-child(1) {
+    color: #D84551;
+}

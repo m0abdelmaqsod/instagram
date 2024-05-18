@@ -1,0 +1,331 @@
+.noneSharingPost {
+    display: none;
+}
+
+.sharingPost {
+    background-color: #00000069;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    z-index: 1;
+}
+
+.sharingPost .divSharingPost {
+    width: 100%;
+    animation-name: openLikePostAndComm;
+    animation-duration: 0.1s;
+
+}
+
+@keyframes openLikePostAndComm {
+    0% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.sharingPost .divSharingPost .openSharingPost {
+    background-color: #262626;
+    width: 40%;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+.sharingPost .divSharingPost .openSharingPost .navSharing {
+    padding: 10px 20px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sharingPost .divSharingPost .openSharingPost .navSharing button {
+    font-size: 18px;
+}
+
+.sharingPost .divSharingPost .openSharingPost .navSharing h3,
+.formSearch h3 {
+    font-size: 17px;
+}
+
+
+
+
+.sharingPost .divSharingPost .openSharingPost .formSearch {
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 1fr 40px;
+    align-items: center;
+    padding: 0 20px;
+    border-top: 1px solid #474747;
+    border-bottom: 1px solid #474747;
+}
+
+.sharingPost .divSharingPost .openSharingPost .formSearch .formAndName {
+    /* background-color: seagreen; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+}
+
+.sharingPost .divSharingPost .openSharingPost .formSearch .formAndName .divSpecified {
+    /* background-color: peru; */
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+    padding: 0 0 10px 0;
+    justify-content: end;
+}
+
+.sharingPost .divSharingPost .openSharingPost .formSearch h3 {
+    /* background-color: violet; */
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* ==== المستخدم المحدد ==== */
+.sharingPost .divSharingPost .openSharingPost .formSearch .specifiedUser {
+    background-color: #166bda;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    /* width: auto; */
+    /* max-width: 200px; */
+    overflow: hidden;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.sharingPost .divSharingPost .openSharingPost .formSearch .specifiedUser button {
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.sharingPost .divSharingPost .openSharingPost .formSearch .specifiedUser p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.sharingPost .divSharingPost .openSharingPost .formSearch form {
+    /* background-color: sienna; */
+    display: block;
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid #474747;
+}
+
+.sharingPost .divSharingPost .openSharingPost .formSearch form input {
+    width: 100%;
+    display: flex;
+    padding: 8px 0;
+}
+
+.sharingPost .divSharingPost .openSharingPost .formSearch form input::placeholder {
+    font-weight: 600;
+}
+
+.sharingPost .divSharingPost .openSharingPost .scrollAllUser,
+.animaAllUser {
+    /* background-color: aqua; */
+    height: 40vh;
+    overflow-y: auto;
+    padding: 10px 0;
+    transition: all 0.5s;
+}
+
+.sharingPost .divSharingPost .openSharingPost .animaAllUser {
+    height: 32vh;
+}
+
+.sharingPost .divSharingPost .openSharingPost h3 {
+    text-align: end;
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+.sharingPost .divSharingPost .openSharingPost .scrollAllUser::-webkit-scrollbar,
+.animaAllUser::-webkit-scrollbar {
+    background-color: #494949;
+}
+
+.sharingPost .divSharingPost .openSharingPost .scrollAllUser::-webkit-scrollbar-thumb,
+.animaAllUser::-webkit-scrollbar-thumb {
+    background-color: #ffffff56;
+}
+
+
+
+
+.sharingPost .divSharingPost .openSharingPost .divInfoUser {
+    cursor: pointer;
+    padding: 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.3s;
+}
+
+.sharingPost .divSharingPost .openSharingPost .divInfoUser:hover {
+    background-color: #474747ab;
+}
+
+.sharingPost .divSharingPost .openSharingPost .divInfoUser .data_user {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+
+
+.sharingPost .divSharingPost .openSharingPost .divInfoUser .checkboxSharing {
+    display: flex;
+    align-items: center;
+}
+
+.sharingPost .divSharingPost .divInfoUser .checkboxSharing .circleCheckbox,
+.bgCheckbox {
+    border: 1px solid #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sharingPost .divSharingPost .divInfoUser .checkboxSharing .bgCheckbox {
+    background-color: #fff;
+}
+
+.sharingPost .divSharingPost .divInfoUser .checkboxSharing .bgCheckbox .check {
+    font-size: 13px;
+    color: #000;
+}
+
+.sharingPost .divSharingPost .divInfoUser .checkboxSharing .circleCheckbox .noneCheck {
+    display: none;
+}
+
+
+
+
+
+
+
+.sharingPost .divSharingPost .openSharingPost .data_user .nameUserPost {
+    max-width: 300px;
+    position: relative;
+    text-align: end;
+}
+
+.sharingPost .divSharingPost .openSharingPost .data_user .nameUserPost>h5 {
+    font-size: 14px;
+}
+
+.sharingPost .divSharingPost .openSharingPost .data_user .nameUserPost>p {
+    color: #888;
+    margin: 0;
+}
+
+.sharingPost .divSharingPost .openSharingPost .data_user .nameUserPost h5 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sharingPost .divSharingPost .openSharingPost .data_user .nameUserPost>h5 span {
+    color: #008cff;
+}
+
+
+
+
+
+
+/* ==== start of div img sharing post ==== */
+.sharingPost .divSharingPost .openSharingPost .divInfoUser .data_user .div_img {
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+.sharingPost .divSharingPost .openSharingPost .divInfoUser .data_user .div_img img {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+.sharingPost .divSharingPost .openSharingPost .divForm {
+    padding: 20px;
+    border-top: 1px solid #474747;
+}
+
+.sharingPost .divSharingPost .openSharingPost .divForm .form,
+.animaForm {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    height: 0px;
+    transition: all 0.5s;
+    margin: 0;
+}
+
+.sharingPost .divSharingPost .openSharingPost .divForm .animaForm {
+    height: 28px;
+    display: block;
+    margin: 0 0 10px;
+}
+
+.sharingPost .divSharingPost .openSharingPost .divForm form input {
+    padding: 5px 10px;
+    text-align: end;
+    width: 100%;
+}
+
+.sharingPost .divSharingPost .openSharingPost .divForm .btnSend button,
+.btnSendOpacity button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #008cff;
+    padding: 8px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.sharingPost .divSharingPost .openSharingPost .divForm .btnSend button:hover {
+    background-color: #166bda;
+}
+
+.sharingPost .divSharingPost .openSharingPost .divForm .btnSendOpacity button {
+    background-color: #1B4865;
+    color: #6b6b6b;
+    cursor: auto;
+}

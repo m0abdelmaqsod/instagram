@@ -1,0 +1,48 @@
+.stories {
+    width: 85%;
+    justify-content: end;
+    margin: auto;
+
+}
+
+
+.stories .mySwiper {
+    /* width: 100%; */
+    /* background-color: aqua; */
+}
+
+.stories .mySwiper .Slide {
+    width: 100%;
+    text-align: center;
+}
+
+.stories .mySwiper .Slide .img_stories {
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stories .mySwiper .Slide .img_stories img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 2px;
+    border: 2px solid green;
+}
+
+.stories .mySwiper .Slide .name_stories {
+    font-size: 13px;
+}
+
+
+
+.stories .mySwiper .Slide {}
+
+.stories .mySwiper .Slide {}
+
+.stories {}

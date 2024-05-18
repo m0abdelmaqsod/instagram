@@ -1,0 +1,140 @@
+.aboutAccount {
+    background-color: #000;
+    width: 30%;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    overflow: hidden;
+}
+
+.aboutAccount .divAboutAccount {
+    /* background-color: green; */
+    height: 90vh;
+    overflow-y: scroll;
+
+}
+
+.aboutAccount .divAboutAccount .navAboutAcc {
+    background-color: #262626;
+    padding: 10px;
+    border-bottom: 1px solid #747474;
+}
+
+.aboutAccount .divAboutAccount .navAboutAcc p {
+    margin: 0;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.aboutAccount .divAboutAccount .infoAcc .divImg {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px auto 10px;
+}
+
+.aboutAccount .divAboutAccount .infoAcc .nameUser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.aboutAccount .divAboutAccount .infoAcc .nameUser span {
+    color: #008cff;
+}
+
+.aboutAccount .divAboutAccount .infoAcc>p {
+    color: #888;
+    font-size: 13px;
+    width: 80%;
+    margin: auto;
+}
+
+.aboutAccount .divAboutAccount .infoAcc>p a {
+    color: #fff;
+}
+
+
+
+
+
+.aboutAccount .divAboutAccount .infoAcc .divInfo {
+    padding: 0 10px;
+}
+
+.aboutAccount .divAboutAccount .infoAcc .divInfo .divDetails {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.aboutAccount .divAboutAccount .infoAcc .divInfo .divDetails .details p {
+    margin: 0;
+    text-align: end;
+    font-size: 17px;
+}
+
+.aboutAccount .divAboutAccount .infoAcc .divInfo .divDetails .details p:nth-child(2) {
+    color: #888;
+    font-size: 16px;
+}
+
+.aboutAccount .divAboutAccount .infoAcc .divInfo .divDetails span {
+    font-size: 25px;
+    margin: 0 0 0 10px;
+}
+
+
+
+
+
+
+
+.aboutAccount .divAboutAccount .infoAcc .infoDiscountCheck {
+    padding: 0 10px;
+    border-bottom: 1px solid #747474;
+}
+
+.aboutAccount .divAboutAccount .infoAcc .infoDiscountCheck p {
+    color: #888;
+    font-size: 13px;
+    /* margin: 0; */
+    text-align: end;
+}
+
+.aboutAccount .divAboutAccount .infoAcc .infoDiscountCheck p a {
+    color: #fff;
+}
+
+
+
+
+
+.aboutAccount .divAboutAccount .btnJoinMeta {
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+.aboutAccount .divAboutAccount .btnJoinMeta button{
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 5px;
+    background-color: #008cff;
+    font-weight: 700;
+}
+
+.aboutAccount .divAboutAccount .btnClose {
+    background-color: aqua;
+}
+
+.aboutAccount .divAboutAccount .btnClose button{
+    background-color: #262626;
+    width: 100%;
+    padding: 15px;
+}

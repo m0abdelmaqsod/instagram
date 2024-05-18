@@ -1,0 +1,95 @@
+.morePosts {
+    /* background-color: aquamarine; */
+}
+
+.morePosts .divMorePosts {}
+
+
+
+/* ==== start of title More Posts ==== */
+.morePosts .divMorePosts .title {
+    display: flex;
+    justify-content: end;
+}
+
+.morePosts .divMorePosts .title p {
+    color: #888;
+    margin: 0 0 0 5px;
+}
+
+.morePosts .divMorePosts .title a:hover {
+    color: #888;
+}
+
+
+
+
+.morePosts .divMorePosts .allMorePosts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+    margin: 20px 0 0;
+}
+
+/* ==== start of single More Post ==== */
+.morePosts .divMorePosts .allMorePosts .singleMorePost {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+}
+
+
+
+
+
+/* ==== start of single More Post ==== */
+.morePosts .divMorePosts .allMorePosts .singleMorePost .divImg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.morePosts .divMorePosts .allMorePosts .singleMorePost .divImg .icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+}
+
+
+
+
+/* ==== start of single More Post ==== */
+.morePosts .divMorePosts .allMorePosts .singleMorePost .divInteractionIcon {
+    display: none;
+}
+
+.morePosts .divMorePosts .allMorePosts .singleMorePost:hover .divInteractionIcon {
+    background-color: #00000069;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.morePosts .divMorePosts .allMorePosts .singleMorePost .divInteractionIcon>div {
+    display: flex;
+    margin: 0 10px;
+}
+
+.morePosts .divMorePosts .allMorePosts .singleMorePost .divInteractionIcon>div span {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+.morePosts .divMorePosts .allMorePosts .singleMorePost .divInteractionIcon {}
+
+.morePosts .divMorePosts .allMorePosts .singleMorePost .divInteractionIcon {}

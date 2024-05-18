@@ -1,0 +1,77 @@
+/* ==== start of report ابلاغ ==== */
+.noneOpt {
+    display: none;
+}
+
+.report {
+    background-color: #262626;
+    width: 30%;
+    height: 95vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    overflow: scroll;
+    text-align: end;
+}
+
+.report::-webkit-scrollbar {
+    height: 0;
+    background-color: #424242;
+}
+
+.report::-webkit-scrollbar-thumb {
+    background-color: #7b7b7b;
+}
+
+
+.report .navReport {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    padding: 10px 0 10px 25px;
+}
+
+.report .navReport p {
+    font-weight: 600;
+    margin: 0;
+    font-size: 16px;
+}
+
+.report .btnReport {
+    border-top: 1px solid #363636;
+    display: block;
+}
+
+.report .btnReport h3 {
+    margin: 20px 0;
+    padding: 10px 20px 0;
+    font-size: 17px;
+}
+
+.report .btnReport button {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 13px 20px;
+    transition: all 0.5s;
+}
+
+.report .btnReport button:hover {
+    background-color: #424242;
+}
+
+.report .btnReport button span {
+    color: #888;
+    font-size: 20px;
+}
+
+.report .btnReport button p {
+    font-size: 17px;
+    margin: 0;
+}
+
+.report .btnReport button:nth-child(1) {
+    /* color: #ff4524; */
+}

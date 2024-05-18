@@ -1,0 +1,92 @@
+.shareTo {
+    background-color: #262626;
+    width: 30%;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.shareTo .navSharing {
+    display: flex;
+    padding: 10px;
+    width: 65%;
+    justify-content: space-between;
+
+}
+
+.shareTo .navSharing button {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.shareTo .navSharing h3 {
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.shareTo .divShareTo {
+    border-top: 1px solid #3d3d3da9;
+    padding: 10px 0;
+    height: 56vh;
+    overflow-y: scroll;
+
+}
+
+.shareTo .divShareTo::-webkit-scrollbar {
+    background-color: #494949;
+}
+
+.shareTo .divShareTo::-webkit-scrollbar-thumb {
+    background-color: #ffffff56;
+}
+
+.shareTo .divShareTo button {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+
+
+.shareTo .divShareTo button:nth-child(8) span {
+    margin-left: 40px;
+}
+
+.shareTo .divShareTo button:hover {
+    background-color: #424242;
+}
+
+.shareTo .divShareTo button span {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.shareTo .divShareTo button:nth-child(1) span {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    width: 22px;
+    height: 22px;
+    justify-content: center;
+    align-items: end;
+    font-size: 18px;
+}
+
+.shareTo .divShareTo button p {
+    margin: 0;
+    font-size: 17px;
+}

@@ -1,0 +1,174 @@
+/* ==== start of haver user ==== */
+.hoverUser {
+    background-color: #000;
+    padding: 10px 0;
+    z-index: 1;
+}
+
+
+
+
+/* ==== start of profile user ==== */
+.hoverUser .profileUser {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: end;
+    margin: 0 20px;
+}
+
+.hoverUser .profileUser .div_img {
+    width: 65px;
+    height: 65px;
+}
+
+.hoverUser .profileUser .div_img img {
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid green
+}
+
+.hoverUser .profileUser .nameUserPost {
+    margin-right: 10px;
+}
+
+.hoverUser .profileUser .nameUserPost a {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hoverUser .profileUser .nameUserPost span {
+    color: #008cff;
+}
+
+.hoverUser .profileUser .nameUserPost p {
+    color: #888;
+}
+
+
+
+
+/* ==== start of user info ==== */
+.hoverUser .userInfo {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.hoverUser .userInfo p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+
+/* ==== start of all images user ==== */
+/* ==== start of all Data ==== */
+.hoverUser .allImg .allData {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5px;
+    margin: 10px 0;
+}
+
+.hoverUser .allImg .allData a {
+    width: 100%;
+    height: 18vh;
+}
+
+
+
+
+/* ==== start of no data ==== */
+.hoverUser .allImg .noData {
+    border-top: 1px solid #575757a4;
+    border-bottom: 1px solid #575757a4;
+    padding: 20px;
+    text-align: center;
+}
+
+.hoverUser .allImg .noData .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid ;
+}
+
+.hoverUser .allImg .noData h3{
+    font-size: 16px;
+    margin: 10px 0 0;
+}
+
+.hoverUser .allImg .noData p{
+    color: #888;
+    font-size: 15px;
+}
+
+
+
+
+
+/* ==== start of btn Communication ==== */
+.hoverUser .btnCommunication {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 10px 10px;
+}
+
+.hoverUser .btnCommunication .follow button {
+    background-color: #888;
+    font-weight: 600;
+    width: 140px;
+    height: 35px;
+    border-radius: 8px;
+}
+
+.hoverUser .btnCommunication .follow button:hover {
+    background-color: #575757;
+}
+
+
+.hoverUser .btnCommunication .messaging a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #008cff;
+    font-weight: 600;
+    font-size: 25px;
+    width: 190px;
+    height: 35px;
+    border-radius: 8px;
+}
+
+.hoverUser .btnCommunication .messaging a:hover {
+    background-color: #1474f1;
+}
+
+.hoverUser .btnCommunication .messaging a span {
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.hoverUser .btnCommunication .follower button {
+    background-color: #008cff;
+    width: 320px;
+    height: 35px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.hoverUser .btnCommunication .follower button span {
+    margin-right: 5px;
+}
+
+.hoverUser .btnCommunication .follower button:hover {
+    background-color: #1474f1;
+}
