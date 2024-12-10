@@ -1,0 +1,40 @@
+.openFavorite {
+    background-color: #262626;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.openFavorite .iconStar {
+    font-size: 40px;
+    color: #ff3c00;
+    margin: 20px 0 10px;
+}
+
+.openFavorite h3 {
+    margin: 10px 0;
+}
+
+.openFavorite p {
+    margin: 10px;
+    width: 80%;
+    margin: auto;
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.openFavorite .btnCloseFavorite button {
+    padding: 10px 0;
+    width: 100%;
+    border-top: 1px solid #383838;
+    margin: 20px 0 0;
+    font-size: 18px;
+}
+
+    .openFavorite .btnCloseFavorite button:hover{
+        background-color: #363636;
+    }

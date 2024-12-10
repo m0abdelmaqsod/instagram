@@ -1,0 +1,45 @@
+.NavHomeResponsive {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+
+.NavHomeResponsive .iconNavRes {
+    display: flex;
+    /* background-color: goldenrod; */
+    padding: 0 10px;
+}
+
+.NavHomeResponsive .iconNavRes .divIco {
+    /* background-color: hotpink; */
+    margin: 0 10px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.NavHomeResponsive .divLogoNav {
+    /* background-color: blueviolet; */
+    font-family: "Grand Hotel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0 20px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.NavHomeResponsive .divLogoNav a {
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.NavHomeResponsive .divLogoNav a span:nth-child(1) {
+font-size: 16px;
+margin:  0 5px 0 0;
+}
+
+.NavHomeResponsive .divLogoNav a span {}

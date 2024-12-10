@@ -1,0 +1,267 @@
+/* ==== start of home ==== */
+.home {
+    width: 82%;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    /* z-index: 1; */
+}
+
+
+.home .divSuggestion {
+    /* background-color: red; */
+}
+
+
+.home .divSearch {
+    display: none;
+}
+
+
+/* ==== start of stories ==== */
+.home .stories_posts {
+    /* background-color: yellow; */
+    /* display: none; */
+}
+
+.home .stories_posts .divStories {
+    /* background-color: blueviolet; */
+}
+
+.home .stories_posts .allPosts {
+    /* background-color: aqua; */
+}
+
+
+
+
+
+
+
+
+@media (max-width:320px) {
+
+    /* ==== start of home ==== */
+    .home {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        /* z-index: 1; */
+        /* background-color: chartreuse; */
+    }
+
+
+    .home .divNavHomeResponsive {
+        /* background-color: red; */
+    }
+
+
+    .home .divSuggestion {
+        /* background-color: red; */
+        display: none;
+    }
+
+
+
+    /* ==== start of stories ==== */
+    .home .stories_posts {
+        /* background-color: yellow; */
+    }
+
+    .home .stories_posts .divStories {
+        /* background-color: blueviolet; */
+    }
+
+    .home .stories_posts .allPosts {
+        /* background-color: aqua; */
+        /* display: none; */
+    }
+}
+
+
+
+
+
+
+@media (min-width:321px) {
+
+    /* ==== start of home ==== */
+    .home {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        z-index: 1;
+        /* background-color: chartreuse; */
+    }
+
+
+    .home .divSuggestion {
+        /* background-color: red; */
+        display: none;
+    }
+
+
+
+    /* ==== start of stories ==== */
+    .home .stories_posts {
+        /* background-color: yellow; */
+    }
+
+    .home .stories_posts .divStories {
+        /* background-color: blueviolet; */
+    }
+
+    .home .stories_posts .allPosts {
+        /* background-color: aqua; */
+        /* display: none; */
+    }
+}
+
+
+
+
+
+
+
+@media (min-width:425px) {
+
+    /* ==== start of home ==== */
+    .home {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        /* background-color: chartreuse; */
+    }
+
+
+    .home .divSuggestion {
+        /* background-color: red; */
+    }
+
+
+
+    /* ==== start of stories ==== */
+    .home .stories_posts {
+        /* background-color: yellow; */
+    }
+
+    .home .stories_posts .divStories {
+        /* background-color: blueviolet; */
+    }
+
+    .home .stories_posts .allPosts {
+        /* background-color: aqua; */
+        /* display: none; */
+    }
+}
+
+
+
+
+
+
+
+@media (min-width:768px) {
+
+    /* ==== start of home ==== */
+    .home {
+        width: 90%;
+        /* grid-template-columns: 100%; */
+        /* background-color: chartreuse;  */
+    }
+
+    .home .divNavHomeResponsive {
+        display: none;
+    }
+
+
+    .home .divSuggestion {
+        /* background-color: red; */
+    }
+
+
+
+    /* ==== start of stories ==== */
+    .home .stories_posts {
+        /* background-color: yellow; */
+    }
+
+    .home .stories_posts .divStories {
+        /* background-color: blueviolet; */
+    }
+
+    .home .stories_posts .allPosts {
+        /* background-color: aqua; */
+        /* display: none; */
+    }
+}
+
+
+
+
+
+
+@media (min-width:1024px) {
+
+    /* ==== start of home ==== */
+    .home {
+        width: 80%;
+        /* grid-template-columns: 100%; */
+        /* background-color: chartreuse;  */
+    }
+
+
+    .home .divSuggestion {
+        /* background-color: red; */
+    }
+
+
+
+    /* ==== start of stories ==== */
+    .home .stories_posts {
+        /* background-color: yellow; */
+    }
+
+    .home .stories_posts .divStories {
+        /* background-color: blueviolet; */
+    }
+
+    .home .stories_posts .allPosts {
+        /* background-color: aqua; */
+        /* display: none; */
+    }
+}
+
+
+
+
+
+@media (min-width:1200px) {
+
+    /* ==== start of home ==== */
+    .home {
+        width: 82%;
+        grid-template-columns: 35% 65%;
+        /* background-color: chartreuse;  */
+    }
+
+
+    .home .divSuggestion {
+        /* background-color: red; */
+        display: block;
+    }
+
+
+    /* ==== start of stories ==== */
+    .home .stories_posts {
+        /* background-color: yellow; */
+    }
+
+    .home .stories_posts .divStories {
+        /* background-color: blueviolet; */
+    }
+
+    .home .stories_posts .allPosts {
+        /* background-color: aqua; */
+        /* display: none; */
+    }
+}

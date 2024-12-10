@@ -1,0 +1,171 @@
+.explorePeople {
+    padding-top: 10vh;
+    width: 50%;
+    margin: auto;
+}
+
+.explorePeople .descPage p {
+    font-size: 17px;
+    font-weight: 500;
+    text-align: end;
+    margin: 0;
+}
+
+.explorePeople .user {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+
+
+.explorePeople .user .divBtnFollow {
+    display: flex;
+    align-items: center;
+}
+
+.explorePeople .user .divBtnFollow button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.explorePeople .user .divBtnFollow .btnIFollow {
+    background-color: #474747;
+    width: 70px;
+}
+
+.explorePeople .user .divBtnFollow .btnFollow {
+    width: 80px;
+    background-color: #008cff;
+}
+
+.explorePeople .user .divBtnFollow .btnIFollow:hover {
+    background-color: transparent;
+}
+
+.explorePeople .user .data_user .divBtnFollow .btnIFollow:hover {
+    background-color: #166bda;
+}
+
+
+
+.explorePeople .user .nameAndImg {
+    display: flex;
+}
+
+.explorePeople .user .nameUser .hover {
+    max-width: 350px;
+}
+
+.explorePeople .user .nameUser .hover .userProfile {
+    position: absolute;
+    top: 20px;
+    right: 65px;
+    width: 0px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.explorePeople .user .nameUser .hover:hover .userProfile {
+    box-shadow: 0px 0 10px #ffffff56;
+    border-radius: 10px;
+    width: 370px;
+}
+
+.explorePeople .user .nameUser .hover>a span {
+    color: #008cff;
+    padding-right: 5px;
+}
+
+.explorePeople .user .nameUser {
+    text-align: end;
+    margin-right: 15px;
+}
+
+.explorePeople .user .nameUser .hover>a {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.explorePeople .user .nameUser>p {
+    color: #888;
+    font-size: 14px;
+    margin: 0;
+}
+
+.explorePeople .user .imgMyUser .hover {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.explorePeople .user .imgMyUser .hover .userProfile {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    width: 0px;
+    overflow: hidden;
+}
+
+.explorePeople .user .imgMyUser .hover:hover .userProfile {
+    display: flex;
+    box-shadow: 0px 0 10px #ffffff56;
+    border-radius: 10px;
+    width: 370px;
+}
+
+.explorePeople .user .imgMyUser .hover>a img {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+/* ==== start of footer Explore People ==== */
+.explorePeople .footerSuggestion {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.explorePeople .footerSuggestion .links {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.explorePeople .footerSuggestion .links a {
+    margin: 0 10px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.explorePeople .footerSuggestion .links a:hover {
+    text-decoration: underline;
+}
+
+.explorePeople .footerSuggestion .links form select {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    color: #888;
+}
+
+
+
+
+
+/* ==== start of copy Right ==== */
+.explorePeople .footerSuggestion .copyRight p {
+    color: #888;
+}

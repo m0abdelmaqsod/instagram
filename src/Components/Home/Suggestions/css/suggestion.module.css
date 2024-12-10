@@ -1,0 +1,407 @@
+/* ==== اقتراحات ==== */
+/* ==== start of suggestion ==== */
+.suggestion {
+    position: fixed;
+    position: relative;
+}
+
+/* ==== start of all suggestion ==== */
+.suggestion .allSuggestion {
+    padding-top: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+/* ==== start of myUser ==== */
+.suggestion .allSuggestion .myUser {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.suggestion .allSuggestion .myUser>button {
+    color: #008cff;
+    transition: all 0.5s;
+}
+
+.suggestion .allSuggestion .myUser button:hover {
+    color: #fff;
+}
+
+
+
+
+/* ==== start of switch Account ==== */
+.suggestion .allSuggestion .myUser .switchAccount {
+    background-color: #00000069;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.suggestion .allSuggestion .myUser .none_switchAccount {
+    display: none;
+}
+
+
+
+/* ==== start of div Switch and && regist exist account */
+.suggestion .allSuggestion .myUser .switchAccount .divSwitch,
+.suggestion .allSuggestion .myUser .switchAccount .regist_exist_account {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #262626;
+    width: 30%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .divSwitch .navSwitch {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    padding: 10px 0 10px 20px;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .divSwitch .navSwitch button,
+.navSwitch p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .divSwitch .allUserSwitch {
+    border-top: 1px solid #ffffff56;
+    max-height: 60vh;
+    padding: 0px 20px;
+
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .divSwitch .allUserSwitch .div_user {
+
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .divSwitch .allUserSwitch .div_user button {
+    background-color: #fff;
+    color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .divSwitch .allUserSwitch .div_user button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .divSwitch .allUserSwitch .div_user .info_user {
+    display: flex;
+    align-items: center;
+
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .divSwitch .allUserSwitch .div_user .info_user p {
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .divSwitch .allUserSwitch .div_user .info_user .div_img {
+    width: 55px;
+    height: 55px;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .divSwitch .allUserSwitch .div_user .info_user .div_img img {
+    border-radius: 50%;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .divSwitch .existing {
+    text-align: center;
+    margin: 15px;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .divSwitch .existing>button {
+    color: #008cff;
+    transition: all 0.5s;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .divSwitch .existing button:hover {
+    color: #fff;
+}
+
+
+
+
+
+/* ==== start of div regist existing account ==== */
+.suggestion .allSuggestion .myUser .switchAccount .regist_exist_account {
+    padding: 20px;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .regist_exist_account>button {
+    font-size: 20px;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .regist_exist_account .form {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .regist_exist_account .form h3 {
+    font-size: 50px;
+    font-family: "Grand Hotel", cursive;
+    margin: 30px 0;
+    font-weight: 100;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .regist_exist_account form .inputForm input {
+    padding: 10px;
+    width: 100%;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .regist_exist_account form .inputForm .email input,
+.pass {
+    border-radius: 3px;
+    margin: 5px 0;
+    border: 1px solid #ffffff2a;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .regist_exist_account form .inputForm .pass {
+    display: flex;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .regist_exist_account form .inputForm .pass .noneShow {
+    display: none;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .regist_exist_account form .checkbox {
+    text-align: end;
+    margin: 10px 0;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .regist_exist_account form .checkbox label {
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .regist_exist_account form .signIn>button {
+    background-color: #008cff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.suggestion .allSuggestion .myUser .switchAccount .regist_exist_account .btnForgotPass {
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==== start of user ==== */
+.suggestion .allSuggestion .myUser .user {
+    display: flex;
+}
+
+.suggestion .allSuggestion .myUser .user .nameUser {
+    text-align: end;
+    margin-right: 15px;
+}
+
+.suggestion .allSuggestion .myUser .user .nameUser a {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.suggestion .allSuggestion .myUser .user .nameUser p {
+    color: #888;
+    font-size: 14px;
+    margin: 0;
+}
+
+.suggestion .allSuggestion .myUser .user .imgMyUser {
+    width: 40px;
+    height: 40px;
+}
+
+.suggestion .allSuggestion .myUser .user .imgMyUser a img {
+    border-radius: 50%;
+}
+
+
+
+
+
+/* ==== start of Other ==== */
+.suggestion .allSuggestion .Other {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.suggestion .allSuggestion .Other h4 {
+    color: #888;
+}
+
+.suggestion .allSuggestion .Other a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.suggestion .allSuggestion .Other a:hover {
+    color: #888;
+}
+
+
+
+
+
+
+/* ==== start of other users ==== */
+.suggestion .allSuggestion .other_users {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.suggestion .allSuggestion .other_users>button {
+    color: #008cff;
+    transition: all 0.5s;
+}
+
+.suggestion .allSuggestion .other_users button:hover {
+    color: #fff;
+}
+
+.suggestion .allSuggestion .other_users .user {
+    display: flex;
+    position: relative;
+}
+
+
+.suggestion .allSuggestion .other_users .user .nameUser .hover {
+    max-width: 150px;
+}
+
+.suggestion .allSuggestion .other_users .user .nameUser .hover .userProfile {
+    position: absolute;
+    top: 20px;
+    right: -50px;
+    width: 0px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.suggestion .allSuggestion .other_users .user .nameUser .hover:hover .userProfile {
+    box-shadow: 0px 0 10px #ffffff56;
+    border-radius: 10px;
+    width: 370px;
+}
+
+.suggestion .allSuggestion .other_users .user .nameUser .hover>a span {
+    color: #008cff;
+    padding-right: 5px;
+}
+
+.suggestion .allSuggestion .other_users .user .nameUser {
+    text-align: end;
+    margin-right: 15px;
+}
+
+.suggestion .allSuggestion .other_users .user .nameUser .hover>a {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.suggestion .allSuggestion .other_users .user .nameUser>p {
+    color: #888;
+    font-size: 14px;
+    margin: 0;
+}
+
+
+
+
+.suggestion .allSuggestion .other_users .user .imgMyUser .hover {
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+.suggestion .allSuggestion .other_users .user .imgMyUser .hover .userProfile {
+    position: absolute;
+    top: 40px;
+    right: -50px;
+    width: 0px;
+    overflow: hidden;
+}
+
+.suggestion .allSuggestion .other_users .user .imgMyUser .hover:hover .userProfile {
+    display: flex;
+    box-shadow: 0px 0 10px #ffffff56;
+    border-radius: 10px;
+    width: 370px;
+}
+
+.suggestion .allSuggestion .other_users .user .imgMyUser .hover>a img {
+    border-radius: 50%;
+}
+
+
+
+
+
+/* ==== start of footer Suggestion ==== */
+.suggestion .allSuggestion .footerSuggestion {
+    margin-top: 50px;
+}
+
+.suggestion .allSuggestion .footerSuggestion .links {
+    color: #888;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.suggestion .allSuggestion .footerSuggestion .links a {
+    color: #888;
+    font-size: 13px;
+}
+
+.suggestion .allSuggestion .footerSuggestion .links a:hover {
+    text-decoration: underline;
+}
+
+.suggestion .allSuggestion .footerSuggestion .copyRights {
+    color: #888;
+    margin-top: 20px;
+    font-size: 13px;
+}

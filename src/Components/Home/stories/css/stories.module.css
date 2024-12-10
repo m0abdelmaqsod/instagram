@@ -1,0 +1,260 @@
+.stories {
+    width: 85%;
+    justify-content: end;
+    margin: auto;
+
+}
+
+
+.stories .mySwiper {
+    /* width: 100%; */
+    padding: 20px 0;
+}
+
+.stories .mySwiper .Slide {
+    width: 100%;
+    text-align: center;
+}
+
+.stories .mySwiper .Slide .img_stories {
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    border-radius: 50%;
+    /* padding: 3px; */
+    border: 3px solid green;
+}
+
+.stories .mySwiper .Slide .img_stories img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.stories .mySwiper .Slide .name_stories {
+    font-size: 13px;
+    margin: 0;
+}
+
+
+
+.stories .mySwiper .Slide {}
+
+.stories .mySwiper .Slide {}
+
+.stories {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+@media (max-width: 320px) {
+    .stories {
+        width: 100%;
+        justify-content: end;
+        margin: auto;
+    }
+
+
+    .stories .mySwiper {
+        /* width: 100%; */
+        /* background-color: aqua; */
+        margin:  0;
+        padding: 15px 0 15px 5px;
+        border: none;
+        border-top: 1px solid #888;
+        border-bottom: 1px solid #888;
+    }
+
+    .stories .mySwiper .Slide {
+        width: 100%;
+        text-align: center;
+    }
+
+    .stories .mySwiper .Slide .img_stories {
+        width: 65px;
+        height: 65px;
+        margin: auto;
+        border-radius: 50%;
+        /* padding: 3px; */
+        border: 3px solid green;
+    }
+
+    .stories .mySwiper .Slide .img_stories img {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .stories .mySwiper .Slide .name_stories {
+        font-size: 13px;
+    }
+
+
+
+    .stories .mySwiper .Slide {}
+
+    .stories .mySwiper .Slide {}
+
+    .stories {}
+}
+
+
+
+
+
+@media (min-width: 321px) {
+    .stories {
+        width: 100%;
+        justify-content: end;
+        margin: auto;
+    }
+
+
+    .stories .mySwiper {
+        /* width: 100%; */
+        /* background-color: aqua; */
+        margin: 10px 0;
+        padding: 15px 0;
+        border: none;
+        border-top: 1px solid #888;
+        border-bottom: 1px solid #888;
+    }
+
+    .stories .mySwiper .Slide {
+        width: 100%;
+        text-align: center;
+    }
+
+    .stories .mySwiper .Slide .img_stories {
+        width: 65px;
+        height: 65px;
+        margin: auto;
+        border-radius: 50%;
+        /* padding: 3px; */
+        border: 3px solid green;
+    }
+
+    .stories .mySwiper .Slide .img_stories img {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .stories .mySwiper .Slide .name_stories {
+        font-size: 13px;
+    }
+
+
+
+    .stories .mySwiper .Slide {}
+
+    .stories .mySwiper .Slide {}
+
+    .stories {}
+}
+
+
+
+
+
+
+@media (min-width: 425px) {
+    /* .stories {
+        width: 100%;
+        justify-content: end;
+        margin: auto;
+    } */
+
+
+    .stories .mySwiper {
+        /* margin: 10px 0; */
+        padding: 15px 0 15px 15px;
+        /* border: none; */
+        /* border-top: 1px solid #888; */
+        /* border-bottom: 1px solid #888; */
+    }
+
+    /* .stories .mySwiper .Slide {
+        width: 100%;
+        text-align: center;
+        } */
+
+    .stories .mySwiper .Slide .img_stories {
+        /* width: 65px; */
+        /* height: 65px; */
+        /* padding: 3px; */
+        /* border: 3px solid green; */
+    }
+
+    /* .stories .mySwiper .Slide .name_stories {
+        font-size: 13px;
+        } */
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .stories {
+        width: 95%;
+        /* justify-content: end; */
+        /* margin: auto; */
+    }
+
+
+    .stories .mySwiper {
+        /* margin: 10px 0; */
+        padding: 15px 0 15px 15px;
+        /* border: none; */
+        border-top:0;
+        border-bottom: 0;
+    }
+
+    /* .stories .mySwiper .Slide {
+        width: 100%;
+        text-align: center;
+        } */
+
+    .stories .mySwiper .Slide .img_stories {
+        /* width: 65px; */
+        /* height: 65px; */
+        /* padding: 3px; */
+        /* border: 3px solid green; */
+    }
+
+    /* .stories .mySwiper .Slide .name_stories {
+        font-size: 13px;
+        } */
+}

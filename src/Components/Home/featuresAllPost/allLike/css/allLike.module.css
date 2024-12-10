@@ -1,0 +1,221 @@
+.noneAllLike {
+    display: none;
+}
+
+.allLike {
+    background-color: #00000069;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    z-index: 1;
+}
+
+
+/* ==== start of animation zoom div ==== */
+.allLike .divAllLikes {
+    width: 100%;
+    animation-name: openLikePostAndComm;
+    animation-duration: 0.1s;
+
+}
+
+@keyframes openLikePostAndComm {
+    0% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+
+
+
+
+
+
+.allLike .divAllLikes .openLikePost {
+    background-color: #262626;
+    width: 30%;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+.allLike .divAllLikes .openLikePost .navAllLikes {
+    padding: 10px 20px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.allLike .divAllLikes .openLikePost .navAllLikes button {
+    font-size: 18px;
+}
+
+.allLike .divAllLikes .openLikePost .navAllLikes h3 {
+    font-size: 17px;
+}
+
+
+
+
+
+
+.allLike .divAllLikes .scrollAllUser {
+    height: 65vh;
+    overflow-y: scroll;
+    padding: 10px 20px;
+    border-top: 1px solid #474747;
+}
+
+.allLike .divAllLikes .scrollAllUser::-webkit-scrollbar {
+    background-color: #494949;
+}
+
+.allLike .divAllLikes .scrollAllUser::-webkit-scrollbar-thumb {
+    background-color: #ffffff56;
+}
+
+.allLike .divAllLikes .scrollAllUser .divInfoUser {
+    margin: 0 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.allLike .divAllLikes .data_user {
+    display: flex;
+    justify-content: end;
+}
+
+
+
+/* ==== start of div Btn Follow ==== */
+.allLike .divAllLikes .divBtnFollow button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.allLike .divAllLikes .divBtnFollow .btnIFollow {
+    background-color: #474747;
+    width: 70px;
+}
+
+.allLike .divAllLikes .divBtnFollow .btnFollow {
+    width: 80px;
+    background-color: #008cff;
+}
+
+.allLike .divAllLikes .divBtnFollow .btnIFollow:hover {
+    background-color: transparent;
+}
+
+.allLike .divAllLikes .data_user .divBtnFollow .btnIFollow:hover {
+    background-color: #166bda;
+}
+
+
+
+
+
+
+
+/* ==== start of div name User Post ==== */
+.allLike .divAllLikes .data_user .nameUserPost {
+    /* background-color: #008cff; */
+    position: relative;
+    text-align: end;
+}
+
+.allLike .divAllLikes .data_user .nameUserPost>a {
+    font-size: 14px;
+}
+
+.allLike .divAllLikes .data_user .nameUserPost .hover {
+    max-width: 300px;
+}
+
+.allLike .divAllLikes .data_user .nameUserPost>p {
+    color: #888;
+    margin: 0;
+}
+
+.allLike .divAllLikes .data_user .nameUserPost .hover .userProfile {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 0px;
+    overflow: hidden;
+}
+
+.allLike .divAllLikes .data_user .nameUserPost .hover:hover .userProfile {
+    display: flex;
+    box-shadow: 0px 0 10px #ffffff56;
+    border-radius: 10px;
+    width: 370px;
+}
+
+.allLike .divAllLikes .data_user .nameUserPost .hover a {
+    font-weight: 600;
+}
+
+.allLike .divAllLikes .data_user .nameUserPost .hover>a span {
+    color: #008cff;
+}
+
+.allLike .divAllLikes .data_user .nameUserPost .hover>button {
+    color: #888;
+}
+
+
+
+
+
+
+
+/* ==== start of div img Like post or comment ==== */
+.allLike .divAllLikes .data_user .div_img .hover {
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.allLike .divAllLikes .data_user .div_img .hover>a img {
+    border-radius: 50%;
+}
+
+.allLike .divAllLikes .data_user .div_img .hover .userProfile {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.allLike .divAllLikes .data_user .div_img .hover:hover .userProfile {
+    box-shadow: 0px 0 10px #ffffff56;
+    width: 370px;
+    border-radius: 10px;
+}

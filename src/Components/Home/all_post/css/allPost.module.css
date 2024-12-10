@@ -1,0 +1,1027 @@
+/* ==== start of all post ==== */
+.all_post {
+    width: 65%;
+    margin: 5px auto 20px;
+}
+
+
+/* ==== start of nav post ==== */
+.all_post .nav_post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all_post .nav_post .btnToggleAndFavorite {
+    width: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all_post .nav_post .btnToggleAndFavorite .toggle {
+    font-size: 25px;
+}
+
+.all_post .nav_post .btnToggleAndFavorite .favorite {
+    color: #ff3c00;
+}
+
+
+.all_post .nav_post .btnToggleAndFavorite .divOpenFavorite {
+    border-radius: 10px;
+}
+
+.all_post .nav_post .allOptionsPost,
+.btnToggleAndFavorite .divOpenFavorite {
+    background-color: #00000069;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    z-index: 1;
+}
+
+
+.all_post .nav_post .noneOptions {
+    display: none;
+}
+
+.all_post .nav_post .data_user {
+    display: flex;
+    align-items: center;
+}
+
+.all_post .nav_post .data_user .date {
+    display: flex;
+    align-items: center;
+}
+
+.all_post .nav_post .data_user .date p {
+    margin: 0;
+    color: #888;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.all_post .nav_post .data_user .nameUserPost {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.all_post .nav_post .data_user .nameUserPost .hover {
+    max-width: 300px;
+}
+
+.all_post .nav_post .data_user .nameUserPost .hover .userProfile {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 0px;
+    overflow: hidden;
+}
+
+.all_post .nav_post .data_user .nameUserPost .hover:hover .userProfile {
+    display: flex;
+    box-shadow: 0px 0 10px #ffffff56;
+    border-radius: 10px;
+    width: 370px;
+}
+
+.all_post .nav_post .data_user .nameUserPost .hover a {
+    font-weight: 600;
+}
+
+.all_post .nav_post .data_user .nameUserPost .hover>a span {
+    color: #008cff;
+}
+
+.all_post .nav_post .data_user .nameUserPost .hover>button {
+    color: #888;
+}
+
+
+
+
+
+.all_post .nav_post .data_user .div_img .hover {
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+    position: relative;
+}
+
+.all_post .nav_post .data_user .div_img .hover>a img {
+    border-radius: 50%;
+    padding: 3px;
+    border: 2px solid green;
+    /* background-image: linear-gradient(to right, yellow, red, blueviolet); */
+}
+
+.all_post .nav_post .data_user .div_img .hover .userProfile {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+.all_post .nav_post .data_user .div_img .hover:hover .userProfile {
+    box-shadow: 0px 0 10px #ffffff56;
+    width: 370px;
+    border-radius: 10px;
+}
+
+
+/* ==== start of img post ==== */
+.all_post .divImgPost {
+    position: relative;
+    /* overflow: hidden; */
+    width: 100%;
+    max-height: 80vh;
+    margin-top: 10px;
+}
+
+.all_post .divImgPost img {
+    object-fit: cover;
+    border: 1px solid #292929;
+    border-radius: 8px;
+}
+
+.all_post .divImgPost .iconLike {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.all_post .divImgPost .noneIcon {
+    display: none;
+}
+
+.all_post .divImgPost .iconLike p {
+    color: red;
+    font-size: 0px;
+    transform: translateY(-100vh);
+    animation-name: watchHeart;
+    animation-duration: 0.7s;
+}
+
+@keyframes watchHeart {
+    0% {
+        transform: translateY(0vh);
+        font-size: 0;
+        opacity: 0;
+    }
+
+    60% {
+        font-size: 120px;
+    }
+
+    70% {
+        transform: rotate(45deg);
+    }
+
+    75% {
+        transform: rotate(0deg);
+        transform: translateY(0vh);
+        font-size: 120px;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* ==== start of all_data_post ==== */
+.all_post .all_data_post .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* ==== start of save post ==== */
+.all_post .all_data_post .icons .save {
+    position: relative;
+}
+
+.all_post .all_data_post .icons .save button {
+    font-size: 25px;
+}
+
+.all_post .all_data_post .icons .save .saveNone {
+    display: none;
+}
+
+
+/* ==== start of hover save post ==== */
+.all_post .all_data_post .icons .save .hoverSavePost>div {
+    position: absolute;
+    bottom: 40px;
+    left: -135px;
+    width: 0;
+    background-color: #262626;
+    z-index: 1;
+}
+
+.all_post .all_data_post .icons .save .hoverSavePost span {
+    background-color: #262626;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    transform: rotate(50deg);
+}
+
+.all_post .all_data_post .icons .save:hover .hoverSavePost span {
+    width: 20px;
+    height: 20px;
+}
+
+.all_post .all_data_post .icons .save:hover .hoverSavePost>div {
+    width: 270px;
+}
+
+
+
+
+
+
+/* ==== التفاعل ==== */
+/* ==== start of interaction ==== */
+.all_post .all_data_post .icons .save .btnSavePost button:hover,
+.interaction button:hover {
+    color: #888;
+}
+
+.all_post .all_data_post .icons .interaction button {
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.all_post .all_data_post .icons .interaction .heart {
+    display: none;
+}
+
+.all_post .all_data_post .icons .interaction .heartRed {
+    color: red;
+    animation-name: heartZoom;
+    animation-duration: 0.3s;
+}
+
+@keyframes heartZoom {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+/* ==== start of info_post ==== */
+.all_post .all_data_post .info_post {
+    text-align: end;
+    margin: 10px 0 10px 0;
+}
+
+.all_post .all_data_post .info_post .like {
+    font-size: 18px;
+}
+
+
+
+
+.all_post .all_data_post .info_post .desc {
+    margin: 10px 0;
+    position: relative;
+}
+
+.all_post .all_data_post .info_post .desc .hoverProfile {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.all_post .all_data_post .info_post .desc .hoverProfile .hover {
+    max-width: 300px;
+}
+
+.all_post .all_data_post .info_post .desc .hoverProfile .hover .userProfile {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 0px;
+    overflow: hidden;
+}
+
+.all_post .all_data_post .info_post .desc .hoverProfile .hover:hover .userProfile {
+    display: flex;
+    box-shadow: 0px 0 10px #ffffff56;
+    border-radius: 10px;
+    width: 370px;
+}
+
+.all_post .all_data_post .info_post .desc .hoverProfile .hover a {
+    font-weight: 600;
+    z-index: 1;
+}
+
+.all_post .all_data_post .info_post .desc .hoverProfile .hover>a span {
+    color: #008cff;
+}
+
+.all_post .all_data_post .info_post .desc .hoverProfile .hover>button {
+    color: #888;
+}
+
+
+
+
+.all_post .all_data_post .info_post .desc>span {
+    /* background-color: #008cff; */
+}
+
+.all_post .all_data_post .info_post .desc button {
+    /* background-color: #ff3c00; */
+    color: #888;
+}
+
+.all_post .all_data_post .info_post .desc button span {
+    color: #fff;
+}
+
+
+
+
+
+
+.all_post .all_data_post .info_post .viewAllComm {
+    color: #888;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* ==== start of form ==== */
+.all_post .all_data_post .info_post form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% auto;
+    border-bottom: 1px solid #292929;
+}
+
+.all_post .all_data_post .info_post form .btn_form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.all_post .all_data_post .info_post form .emoji:hover {
+    color: #888;
+}
+
+.all_post .all_data_post .info_post form .publish {
+    color: #008cff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.all_post .all_data_post .info_post form .publishNone {
+    display: none;
+}
+
+.all_post .all_data_post .info_post form .publish:hover {
+    color: #fff;
+}
+
+.all_post .all_data_post .info_post form textarea {
+    width: 100%;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======= Responsive ======= */
+
+@media (max-width: 320px) {
+
+    /* ==== start of all post ==== */
+    .all_post {
+        width: 90%;
+        margin: 5vh auto 20px;
+    }
+
+
+    .all_post .nav_post .data_user .nameUserPost .hover:hover .userProfile {
+        display: none;
+    }
+
+
+    .all_post .nav_post .data_user .div_img .hover:hover .userProfile {
+        display: none;
+    }
+
+
+    /* ==== start of hover save post ==== */
+    .all_post .all_data_post .icons .save .hoverSavePost>div {
+        position: absolute;
+        bottom: 0px;
+        left: -0;
+        width: 0;
+    }
+
+    .all_post .all_data_post .icons .save .hoverSavePost span {
+        display: none;
+    }
+
+    .all_post .all_data_post .icons .save:hover .hoverSavePost>div {
+        width: 100%;
+        position: fixed;
+        left: 0px;
+    }
+
+
+    .all_post .all_data_post .info_post .desc .hoverProfile .hover:hover .userProfile {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width: 321px) {
+
+    /* ==== start of all post ==== */
+    .all_post {
+        width: 90%;
+        margin: 5vh auto 20px;
+    }
+
+    .all_post .nav_post .data_user .nameUserPost .hover:hover .userProfile {
+        display: none;
+    }
+
+    .all_post .nav_post .data_user .div_img .hover:hover .userProfile {
+        display: none;
+    }
+
+    /* ==== start of hover save post ==== */
+    .all_post .all_data_post .icons .save .hoverSavePost>div {
+        position: absolute;
+        bottom: 0px;
+        left: -0;
+        width: 0;
+    }
+
+    .all_post .all_data_post .icons .save .hoverSavePost span {
+        display: none;
+    }
+
+    .all_post .all_data_post .icons .save:hover .hoverSavePost>div {
+        width: 100%;
+        position: fixed;
+        left: 0px;
+    }
+
+    .all_post .all_data_post .info_post .desc .hoverProfile .hover:hover .userProfile {
+        display: none;
+    }
+}
+
+
+
+
+
+
+/* @media (min-width: 425px) {} */
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+    /* ==== start of all post ==== */
+    .all_post {
+        width: 70%;
+        margin: 3vh auto 20px;
+        /* background-color: red; */
+    }
+}
+
+
+
+
+
+
+
+@media (min-width: 1024px) {
+
+    /* ==== start of all post ==== */
+    .all_post {
+        width: 50%;
+        /* background-color: red; */
+        /* margin: 5vh auto 20px; */
+    }
+}
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+
+    /* ==== start of all post ==== */
+    .all_post {
+        width: 65%;
+        margin: 5px auto 20px;
+        /* background-color: red; */
+    }
+
+
+    /* ==== start of nav post ==== */
+    /* .all_post .nav_post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+    /* .all_post .nav_post .btnToggleAndFavorite {
+    width: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+    /* .all_post .nav_post .btnToggleAndFavorite .toggle {
+    font-size: 25px;
+} */
+
+    /* .all_post .nav_post .btnToggleAndFavorite .favorite {
+    color: #ff3c00;
+} */
+
+
+    /* .all_post .nav_post .btnToggleAndFavorite .divOpenFavorite {
+    border-radius: 10px;
+} */
+
+    /* .all_post .nav_post .allOptionsPost,
+.btnToggleAndFavorite .divOpenFavorite {
+    background-color: #00000069;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    z-index: 1;
+} */
+
+
+    /* .all_post .nav_post .noneOptions {
+    display: none;
+} */
+
+    /* .all_post .nav_post .data_user {
+    display: flex;
+    align-items: center;
+} */
+
+    /* .all_post .nav_post .data_user .date {
+    display: flex;
+    align-items: center;
+}
+
+.all_post .nav_post .data_user .date p {
+    margin: 0;
+    color: #888;
+    cursor: pointer;
+} */
+
+
+
+
+
+
+
+    /* .all_post .nav_post .data_user .nameUserPost {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}*/
+
+    /* .all_post .nav_post .data_user .nameUserPost .hover {
+    max-width: 300px;
+} */
+
+    /* .all_post .nav_post .data_user .nameUserPost .hover .userProfile {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 0px;
+    overflow: hidden;
+} */
+
+
+    .all_post .nav_post .data_user .nameUserPost .hover:hover .userProfile {
+        /* display: none; */
+        /* box-shadow: 0px 0 10px #ffffff56;
+    border-radius: 10px;
+    width: 370px; */
+    }
+
+    /* .all_post .nav_post .data_user .nameUserPost .hover a {
+    font-weight: 600;
+}
+
+.all_post .nav_post .data_user .nameUserPost .hover>a span {
+    color: #008cff;
+}
+
+.all_post .nav_post .data_user .nameUserPost .hover>button {
+    color: #888;
+}
+*/
+
+
+
+
+    /* .all_post .nav_post .data_user .div_img .hover {
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+    position: relative;
+} */
+
+    /* .all_post .nav_post .data_user .div_img .hover>a img {
+    border-radius: 50%;
+    padding: 3px;
+    border: 2px solid green;
+    /* background-image: linear-gradient(to right, yellow, red, blueviolet); 
+} */
+
+
+    /* .all_post .nav_post .data_user .div_img .hover .userProfile {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+} */
+
+    .all_post .nav_post .data_user .div_img .hover:hover .userProfile {
+        /* display: none; */
+        /* box-shadow: 0px 0 10px #ffffff56;
+    width: 370px;
+    border-radius: 10px; */
+    }
+
+
+    /* ==== start of img post ==== */
+    .all_post .divImgPost {
+        /* background-color: red; */
+        /* position: relative; */
+        /* width: 100%; */
+        /* max-height: 80vh; */
+        /* margin-top: 10px; */
+    }
+
+    .all_post .divImgPost img {
+        /* width: 100%; */
+        /* height: 100%; */
+        /* object-fit: cover; */
+        /* border: 1px solid #292929; */
+        /* border-radius: 8px; */
+    }
+
+    /* .all_post .divImgPost .iconLike {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+    /* .all_post .divImgPost .noneIcon {
+    display: none;
+} */
+
+    /* .all_post .divImgPost .iconLike p {
+    color: red;
+    font-size: 0px;
+    transform: translateY(-100vh);
+    animation-name: watchHeart;
+    animation-duration: 0.7s;
+} */
+
+    /* @keyframes watchHeart {
+    0% {
+        transform: translateY(0vh);
+        font-size: 0;
+        opacity: 0;
+    }
+
+    60% {
+        font-size: 120px;
+    }
+
+    70% {
+        transform: rotate(45deg);
+    }
+
+    75% {
+        transform: rotate(0deg);
+        transform: translateY(0vh);
+        font-size: 120px;
+    }
+
+    100% {
+        opacity: 1;
+    }
+} */
+
+
+
+
+
+
+
+
+
+    /* ==== start of all_data_post ==== */
+    /* .all_post .all_data_post .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+} */
+
+    /* ==== start of save post ==== */
+    /* .all_post .all_data_post .icons .save {
+    position: relative;
+} */
+
+    /* .all_post .all_data_post .icons .save button {
+    font-size: 25px;
+} */
+
+    /* .all_post .all_data_post .icons .save .saveNone {
+    display: none;
+} */
+
+
+    /* ==== start of hover save post ==== */
+    .all_post .all_data_post .icons .save .hoverSavePost>div {
+        bottom: 40px;
+        left: -135px;
+        width: 0;
+    }
+
+    .all_post .all_data_post .icons .save .hoverSavePost span {
+        display: flex;
+    }
+    
+.all_post .all_data_post .icons .save:hover .hoverSavePost span {
+    width: 20px;
+    height: 20px;
+}
+
+.all_post .all_data_post .icons .save:hover .hoverSavePost>div {
+        width: 270px;
+        position: absolute;
+        /* width: 100%;
+        left: 0px; */
+        /* background-color: red; */
+    }
+
+
+
+
+
+
+    /* ==== التفاعل ==== */
+    /* ==== start of interaction ==== */
+
+    /* .all_post .all_data_post .icons .save .btnSavePost button:hover,
+.interaction button:hover {
+    color: #888;
+} */
+
+    /* .all_post .all_data_post .icons .interaction button {
+    margin-left: 15px;
+    font-size: 25px;
+} */
+
+    /* .all_post .all_data_post .icons .interaction .heart {
+    display: none;
+} */
+
+    /* .all_post .all_data_post .icons .interaction .heartRed {
+    color: red;
+    animation-name: heartZoom;
+    animation-duration: 0.3s;
+}
+
+@keyframes heartZoom {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+} */
+
+
+
+    /* ==== start of info_post ==== */
+    /* .all_post .all_data_post .info_post {
+    text-align: end;
+    margin: 10px 0 10px 0;
+}
+
+.all_post .all_data_post .info_post .like {
+    font-size: 18px;
+} */
+
+
+
+
+    /* .all_post .all_data_post .info_post .desc {
+    margin: 10px 0;
+    position: relative;
+} */
+
+    /* .all_post .all_data_post .info_post .desc .hoverProfile {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+} */
+
+    /* .all_post .all_data_post .info_post .desc .hoverProfile .hover {
+    max-width: 300px;
+} */
+
+    /* .all_post .all_data_post .info_post .desc .hoverProfile .hover .userProfile {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 0px;
+    overflow: hidden;
+} */
+
+    .all_post .all_data_post .info_post .desc .hoverProfile .hover:hover .userProfile {
+        /* display: none; */
+        /* box-shadow: 0px 0 10px #ffffff56;
+    border-radius: 10px;
+    width: 370px; */
+    }
+
+    /* .all_post .all_data_post .info_post .desc .hoverProfile .hover a {
+    font-weight: 600;
+    z-index: 1;
+} */
+
+    /* .all_post .all_data_post .info_post .desc .hoverProfile .hover>a span {
+    color: #008cff;
+} */
+
+    /* .all_post .all_data_post .info_post .desc .hoverProfile .hover>button {
+    color: #888;
+} */
+
+
+
+
+    /* .all_post .all_data_post .info_post .desc>span {
+    background-color: #008cff;
+} */
+
+    /* .all_post .all_data_post .info_post .desc button {
+    background-color: #ff3c00;
+    color: #888;
+} */
+
+    /* .all_post .all_data_post .info_post .desc button span {
+    color: #fff;
+} */
+
+
+
+
+
+
+    /* .all_post .all_data_post .info_post .viewAllComm {
+    color: #888;
+    margin-bottom: 10px;
+} */
+
+
+
+
+
+    /* ==== start of form ==== */
+    /* .all_post .all_data_post .info_post form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% auto;
+    border-bottom: 1px solid #292929;
+} */
+
+    /* .all_post .all_data_post .info_post form .btn_form {
+    display: flex;
+    justify-content: space-between;
+} */
+
+    /* .all_post .all_data_post .info_post form .emoji:hover {
+    color: #888;
+} */
+
+    /* .all_post .all_data_post .info_post form .publish {
+    color: #008cff;
+    text-align: center;
+    font-size: 18px;
+} */
+
+    /* .all_post .all_data_post .info_post form .publishNone {
+    display: none;
+} */
+
+    /* .all_post .all_data_post .info_post form .publish:hover {
+    color: #fff;
+} */
+
+    /* .all_post .all_data_post .info_post form textarea {
+    width: 100%;
+    height: 30px;
+} */
+}

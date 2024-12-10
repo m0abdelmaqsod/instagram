@@ -1,0 +1,183 @@
+/* ==== start of hoverSave ==== */
+.hoverSave {
+    overflow: hidden;
+    height: 50vh;
+    border-radius: 10px;
+    z-index: 1;
+
+}
+
+/* ==== start of formations ==== */
+.hoverSave .formations {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.hoverSave .formations p {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+}
+
+.hoverSave .formations button {}
+
+
+
+
+
+/* ==== start of all groups ==== */
+.hoverSave .allGroups {
+    /* margin-left: 20px; */
+    height: 39vh;
+    overflow: scroll;
+}
+
+
+
+/* ==== start of scroll group ==== */
+.hoverSave .allGroups::-webkit-scrollbar {
+    height: 0;
+    background-color: #424242;
+}
+
+
+.hoverSave .allGroups::-webkit-scrollbar-thumb {
+    background-color: #7B7B7B;
+}
+
+
+
+
+/* ==== start of group ==== */
+.hoverSave .allGroups .scroll_group .group button {
+    display: flex;
+    align-items: center;
+    padding: 5px 0 5px 20px;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.hoverSave .allGroups .scroll_group .group button:hover {
+    background-color: #424242;
+}
+
+.hoverSave .allGroups .scroll_group .group button .divImg {
+    width: 40px;
+    height: 40px;
+}
+
+.hoverSave .allGroups .scroll_group .group button .divImg img {
+    border-radius: 10px;
+}
+
+.hoverSave .allGroups .scroll_group .group button p {
+    font-size: 18px;
+    margin: 0 0 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:320) {
+
+    /* ==== start of hoverSave ==== */
+    .hoverSave {
+        overflow: hidden;
+        height: 50vh;
+        border-radius: 10px;
+        z-index: 1;
+
+    }
+
+    /* ==== start of formations ==== */
+    .hoverSave .formations {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .hoverSave .formations p {
+        font-weight: 700;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .hoverSave .formations button {}
+
+
+
+
+
+    /* ==== start of all groups ==== */
+    .hoverSave .allGroups {
+        /* margin-left: 20px; */
+        height: 39vh;
+        overflow: scroll;
+    }
+
+
+
+    /* ==== start of scroll group ==== */
+    .hoverSave .allGroups::-webkit-scrollbar {
+        height: 0;
+        background-color: #424242;
+    }
+
+
+    .hoverSave .allGroups::-webkit-scrollbar-thumb {
+        background-color: #7B7B7B;
+    }
+
+
+    /* ==== start of group ==== */
+    .hoverSave .allGroups .scroll_group .group button {
+        display: flex;
+        align-items: center;
+        padding: 5px 0 5px 20px;
+        width: 100%;
+        transition: all 0.5s;
+    }
+
+    .hoverSave .allGroups .scroll_group .group button:hover {
+        background-color: #424242;
+    }
+
+    .hoverSave .allGroups .scroll_group .group button .divImg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .hoverSave .allGroups .scroll_group .group button .divImg img {
+        border-radius: 10px;
+    }
+
+    .hoverSave .allGroups .scroll_group .group button p {
+        font-size: 18px;
+        margin: 0 0 0 10px;
+    }
+
+}
+
+@media (min-width:321) {}

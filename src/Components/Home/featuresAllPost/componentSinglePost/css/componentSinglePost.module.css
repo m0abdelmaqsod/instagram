@@ -1,0 +1,712 @@
+.componentSinglePost {
+    background-color: #00000069;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.none {
+    display: none;
+}
+
+.componentSinglePost .btnCloseSinglePost {
+    position: absolute;
+    width: 20px;
+    text-align: center;
+    left: 20px;
+    top: 20px;
+}
+
+.componentSinglePost .btnCloseSinglePost button {
+    font-size: 20px;
+}
+
+
+
+
+.divSinglePost {
+    width: 78%;
+    height: 100vh;
+    /* background-color: #008cff; */
+    margin: auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+}
+
+.divSinglePost .divDataPost {
+    background-color: #000;
+}
+
+.divSinglePost .divDataPost .nav_post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 10px;
+    border-bottom: 1px solid #292929;
+}
+
+.divSinglePost .divDataPost .nav_post .btnToggleAndFavorite {
+    width: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divSinglePost .divDataPost .nav_post .btnToggleAndFavorite .toggle {
+    font-size: 25px;
+}
+
+.divSinglePost .divDataPost .nav_post .btnToggleAndFavorite .favorite {
+    color: #ff3c00;
+}
+
+.divSinglePost .divDataPost .nav_post .btnToggleAndFavorite .divOpenFavorite {
+    border-radius: 10px;
+}
+
+.divSinglePost .divDataPost .nav_post .allOptionsPost,
+.btnToggleAndFavorite .divOpenFavorite {
+    background-color: #00000069;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    z-index: 1;
+}
+
+.divSinglePost .divDataPost .nav_post .noneOptions {
+    display: none;
+}
+
+.divSinglePost .divDataPost .nav_post .data_user {
+    display: flex;
+    align-items: center;
+}
+
+.divSinglePost .divDataPost .nav_post .data_user .openUnFollow {
+    background-color: #00000069;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    z-index: 1;
+}
+
+.divSinglePost .divDataPost .nav_post .data_user .openUnFollow .zoomOpUnFoll {
+    width: 100%;
+    animation-name: openUnFollow;
+    animation-duration: 0.1s;
+}
+
+@keyframes openUnFollow {
+    0% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.divSinglePost .divDataPost .nav_post .data_user .openUnFollow .unFollow {
+    background-color: #262626;
+    width: 30%;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.divSinglePost .divDataPost .nav_post .data_user .divFollow {
+    display: flex;
+    align-items: center;
+}
+
+.divSinglePost .divDataPost .nav_post .data_user .divFollow button {
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.divSinglePost .divDataPost .nav_post .data_user .divFollow button:hover {
+    color: #888;
+}
+
+.divSinglePost .divDataPost .nav_post .data_user .divFollow .dot {
+    color: #888;
+}
+
+.divSinglePost .divDataPost .nav_post .data_user .nameUserPost {
+    position: relative;
+    text-align: end;
+}
+
+.divSinglePost .divDataPost .nav_post .data_user .nameUserPost>a {
+    font-size: 14px;
+}
+
+.divSinglePost .divDataPost .nav_post .data_user .nameUserPost .hover {
+    max-width: 300px;
+}
+
+.divSinglePost .divDataPost .nav_post .data_user .nameUserPost .hover .userProfile {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 0px;
+    overflow: hidden;
+}
+
+.divSinglePost .divDataPost .nav_post .data_user .nameUserPost .hover:hover .userProfile {
+    display: flex;
+    box-shadow: 0px 0 10px #ffffff56;
+    border-radius: 10px;
+    width: 370px;
+}
+
+.divSinglePost .divDataPost .nav_post .data_user .nameUserPost .hover a {
+    font-weight: 600;
+}
+
+.divSinglePost .divDataPost .nav_post .data_user .nameUserPost .hover>a span {
+    color: #008cff;
+}
+
+.divSinglePost .divDataPost .nav_post .data_user .nameUserPost .hover>button {
+    color: #888;
+}
+
+.divSinglePost .divDataPost .nav_post .data_user .div_img .hover {
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+    position: relative;
+}
+
+.divSinglePost .divDataPost .nav_post .data_user .div_img .hover>a img {
+    border-radius: 50%;
+    padding: 3px;
+    border: 2px solid green;
+    /* background-image: linear-gradient(to right, yellow, red, blueviolet); */
+}
+
+.divSinglePost .divDataPost .nav_post .data_user .div_img .hover .userProfile {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.divSinglePost .divDataPost .nav_post .data_user .div_img .hover:hover .userProfile {
+    box-shadow: 0px 0 10px #ffffff56;
+    width: 370px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+.divSinglePost .divDataPost .all_data_post .descAndComm {
+    text-align: end;
+    overflow-y: scroll;
+    padding: 20px 20px 0;
+    height: 52vh;
+    position: relative;
+}
+
+.divSinglePost .divDataPost .all_data_post .descAndComm::-webkit-scrollbar {
+    width: 0;
+}
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .allDesc {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+
+
+
+
+
+
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .divComments {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 10% 1fr auto;
+}
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .btnHeart {
+    display: flex;
+    align-items: center;
+}
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .btnHeart .heartCommNone {
+    display: none;
+}
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .btnHeart .heartRed {
+    color: red;
+}
+
+
+
+
+
+
+
+
+/* ==== التفاعل مع التعليق ==== */
+/* ==== Interact with comment ==== */
+/* .divSinglePost .divDataPost .all_data_post .descAndComm .divComments {
+    background-color: #ff3c00;
+} */
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .divComments .nameAndDesc .interactWithComm {
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .nameAndDesc .interactWithComm button:nth-child(2),
+.nameAndDesc .interactWithComm button:nth-child(3) {
+    margin-left: 15px;
+}
+
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .divComments .nameAndDesc .interactWithComm button {
+    color: #888;
+    font-size: 14px;
+}
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .nameAndDesc .interactWithComm .toggle {
+    font-size: 16px;
+    display: none;
+}
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .divComments:hover .nameAndDesc .interactWithComm .toggle {
+    display: flex;
+}
+
+
+
+
+.interactWithComm button label {
+    cursor: pointer;
+}
+
+
+
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .div_img .hover {
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+    position: relative;
+}
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .div_img .hover>a img {
+    border-radius: 50%;
+    padding: 3px;
+    border: 2px solid green;
+}
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .div_img .hover .userProfile {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .div_img .hover:hover .userProfile {
+    box-shadow: 0px 0 10px #ffffff56;
+    width: 370px;
+    border-radius: 10px;
+}
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .allDesc .nameAndDesc .hoverProfile,
+.divComments .nameAndDesc .hoverProfile {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .hoverProfile .date {
+    color: #888;
+}
+.divSinglePost .divDataPost .all_data_post .descAndComm .hoverProfile .date p{
+    margin: 0;
+}
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .hoverProfile .hover {
+    max-width: 300px;
+    margin-left: 10px;
+}
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .hoverProfile .hover .userProfile {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    width: 0px;
+    overflow: hidden;
+}
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .hoverProfile .hover:hover .userProfile {
+    display: flex;
+    box-shadow: 0px 0 10px #ffffff56;
+    border-radius: 10px;
+    width: 370px;
+}
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .hoverProfile .hover a {
+    font-weight: 600;
+    z-index: 1;
+}
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .hoverProfile .hover>a span {
+    color: #008cff;
+}
+
+.divSinglePost .divDataPost .all_data_post .descAndComm .hoverProfile .hover>button {
+    color: #888;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==== start of all div info  ==== */
+.divSinglePost .divDataPost .all_data_post .divInfo {
+    border-top: 1px solid #262626;
+    padding: 20px 20px 10px;
+}
+
+
+
+/* ==== start of all_data_post ==== */
+.divSinglePost .divDataPost .all_data_post .icons {
+    /* background-color: tomato; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ==== start of save post ==== */
+.divSinglePost .divDataPost .all_data_post .icons .save {
+    position: relative;
+}
+
+.divSinglePost .divDataPost .all_data_post .icons .save button {
+    font-size: 25px;
+}
+
+.divSinglePost .divDataPost .all_data_post .icons .save .saveNone {
+    display: none;
+}
+
+
+/* ==== start of hover save post ==== */
+.divSinglePost .divDataPost .all_data_post .icons .save .hoverSavePost>div {
+    position: absolute;
+    bottom: 40px;
+    left: -135px;
+    width: 0;
+    background-color: #262626;
+    z-index: 1;
+}
+
+.divSinglePost .divDataPost .all_data_post .icons .save .hoverSavePost span {
+    background-color: #262626;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    transform: rotate(50deg);
+}
+
+.divSinglePost .divDataPost .all_data_post .icons .save:hover .hoverSavePost span {
+    width: 20px;
+    height: 20px;
+}
+
+.divSinglePost .divDataPost .all_data_post .icons .save:hover .hoverSavePost>div {
+    width: 270px;
+}
+
+
+
+
+
+
+/* ==== التفاعل ==== */
+/* ==== start of interaction ==== */
+.divSinglePost .divDataPost .all_data_post .icons .save .btnSavePost button:hover,
+.interaction button:hover {
+    color: #888;
+}
+
+.divSinglePost .divDataPost .all_data_post .icons .interaction button {
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.divSinglePost .divDataPost .all_data_post .icons .interaction button label {
+    cursor: pointer;
+}
+
+
+.divSinglePost .divDataPost .all_data_post .icons .interaction .heart {
+    display: none;
+}
+
+.divSinglePost .divDataPost .all_data_post .icons .interaction .heartRed {
+    color: red;
+    animation-name: heartZoom;
+    animation-duration: 0.3s;
+}
+
+@keyframes heartZoom {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+
+
+
+
+
+
+/* ==== start of info post ==== */
+.divSinglePost .divDataPost .info_post {
+    text-align: end;
+    margin-top: 5px;
+    /* background-color: red; */
+}
+
+.divSinglePost .divDataPost .info_post .divLike {
+    display: flex;
+    justify-content: end;
+}
+
+.divSinglePost .divDataPost .info_post .divLike .like {
+    font-weight: 600;
+
+}
+
+.divSinglePost .divDataPost .info_post .divLike .divImgLike {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 55px;
+    margin-left: 10px;
+}
+
+.divSinglePost .divDataPost .info_post .divLike .divImgLike .divImg {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+}
+
+.divSinglePost .divDataPost .info_post .divLike .divImgLike .divImg:nth-child(2) {
+    left: 15px;
+}
+
+.divSinglePost .divDataPost .info_post .divLike .divImgLike .divImg:nth-child(3) {
+    left: 30px;
+}
+
+
+.divSinglePost .divDataPost .info_post .divLike .divImgLike .divImg img {
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    border: 3px solid #000;
+}
+
+.divSinglePost .divDataPost .info_post .divDate a {
+    color: #888;
+}
+
+
+
+
+
+
+
+
+
+
+/* ==== start of form ==== */
+.divSinglePost .divDataPost form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 17% auto 11%;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.divSinglePost .divDataPost .all_data_post form .btn_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divSinglePost .divDataPost .all_data_post form .emoji {
+    font-size: 25px;
+}
+
+.divSinglePost .divDataPost .all_data_post form .emoji:hover {
+    color: #888;
+}
+
+.divSinglePost .divDataPost .all_data_post form .publish {
+    color: #008cff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.divSinglePost .divDataPost .all_data_post form .publishNone {
+    display: none;
+}
+
+.divSinglePost .divDataPost .all_data_post form .publish:hover {
+    color: #fff;
+}
+
+.divSinglePost .divDataPost .all_data_post form textarea {
+    width: 100%;
+    height: 30px;
+    margin-right: 10px;
+    text-align: start;
+}
+
+.divSinglePost .divDataPost .all_data_post form .divImg {
+    width: 100%;
+    height: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.divSinglePost .divDataPost .all_data_post form .divImg img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==== start of div images Post ==== */
+.divSinglePost .divImgPost {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+
+.divSinglePost .divImgPost img {
+    object-fit: cover;
+}
+
+.divSinglePost .divImgPost .iconLike {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.divSinglePost .divImgPost .noneIcon {
+    display: none;
+}
+
+.divSinglePost .divImgPost .iconLike p {
+    color: red;
+    font-size: 0px;
+    transform: translateY(-100vh);
+    animation-name: watchHeart;
+    animation-duration: 0.7s;
+}
+
+
+@keyframes watchHeart {
+    0% {
+        transform: translateY(0vh);
+        font-size: 0;
+        opacity: 0;
+    }
+
+    60% {
+        font-size: 120px;
+    }
+
+    70% {
+        transform: rotate(45deg);
+    }
+
+    75% {
+        transform: rotate(0deg);
+        transform: translateY(0vh);
+        font-size: 120px;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
